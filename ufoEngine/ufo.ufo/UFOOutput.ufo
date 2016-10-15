@@ -1,0 +1,7 @@
+class UFOOutput {
+    
+    >+ (void)printInt(int i) {
+
+    }
+
+}

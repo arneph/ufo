@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7ABDE0FB193126C0005215AE /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7ABDE0FC193126C1005215AE /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				7ABDE100193126D7005215AE /* PBXTargetDependency */,
+				7ABDE102193126D7005215AE /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		7ABDE0941931242A005215AE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABDE0931931242A005215AE /* Cocoa.framework */; };
+		7ABDE09E1931242A005215AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDE09C1931242A005215AE /* InfoPlist.strings */; };
+		7ABDE0A01931242A005215AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE09F1931242A005215AE /* main.m */; };
+		7ABDE0A41931242A005215AE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDE0A21931242A005215AE /* Credits.rtf */; };
+		7ABDE0A71931242A005215AE /* UFOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE0A61931242A005215AE /* UFOAppDelegate.m */; };
+		7ABDE0AA1931242A005215AE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDE0A81931242A005215AE /* MainMenu.xib */; };
+		7ABDE0AC1931242A005215AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDE0AB1931242A005215AE /* Images.xcassets */; };
+		7ABDE0CF19312548005215AE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABDE0931931242A005215AE /* Cocoa.framework */; };
+		7ABDE0D519312548005215AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDE0D319312548005215AE /* InfoPlist.strings */; };
+		7ABDE0F419312591005215AE /* ufo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABDE0F319312591005215AE /* ufo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ABDE0F7193125E3005215AE /* UFOViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABDE0F5193125E3005215AE /* UFOViewer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ABDE0F8193125E3005215AE /* UFOViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE0F6193125E3005215AE /* UFOViewer.m */; };
+		7ABDE0FA19312630005215AE /* ufoEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABDE0CE19312548005215AE /* ufoEngine.framework */; };
+		7ABDE109193128E5005215AE /* UFOEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABDE107193128E5005215AE /* UFOEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ABDE10A193128E5005215AE /* UFOEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE108193128E5005215AE /* UFOEngine.m */; };
+		7ABDE10D19312B2E005215AE /* UFOReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABDE10B19312B2E005215AE /* UFOReader.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7ABDE10E19312B2E005215AE /* UFOReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE10C19312B2E005215AE /* UFOReader.m */; };
+		7ABDE11119313718005215AE /* UFOConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABDE10F19313718005215AE /* UFOConsole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ABDE11219313718005215AE /* UFOConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE11019313718005215AE /* UFOConsole.m */; };
+		7ABDE114193139B3005215AE /* ConsoleOutputTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDE113193139B3005215AE /* ConsoleOutputTextView.xib */; };
+		7ABDE1171934C5B2005215AE /* UFOClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABDE1151934C5B2005215AE /* UFOClass.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7ABDE1181934C5B2005215AE /* UFOClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE1161934C5B2005215AE /* UFOClass.m */; };
+		7ABDE11A1934D6D2005215AE /* ufo.ufo in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDE1191934D6D2005215AE /* ufo.ufo */; };
+		7ABDE11D19372116005215AE /* UFOClassesController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABDE11B19372116005215AE /* UFOClassesController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7ABDE11E19372116005215AE /* UFOClassesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE11C19372116005215AE /* UFOClassesController.m */; };
+		7ABDE1231937889E005215AE /* UFOOutputClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABDE1211937889E005215AE /* UFOOutputClass.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7ABDE1241937889E005215AE /* UFOOutputClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE1221937889E005215AE /* UFOOutputClass.m */; };
+		7ABDE12819378D8F005215AE /* UFOFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABDE12619378D8F005215AE /* UFOFunction.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7ABDE12919378D8F005215AE /* UFOFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE12719378D8F005215AE /* UFOFunction.m */; };
+		7ABDE12E1938B95E005215AE /* UFOSubEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABDE12C1938B95E005215AE /* UFOSubEngine.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7ABDE12F1938B95E005215AE /* UFOSubEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE12D1938B95E005215AE /* UFOSubEngine.m */; };
+		7ABDE1321939BC6F005215AE /* NSString+UFOString.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABDE1301939BC6F005215AE /* NSString+UFOString.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7ABDE1331939BC6F005215AE /* NSString+UFOString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE1311939BC6F005215AE /* NSString+UFOString.m */; };
+		7ABDE1341939C406005215AE /* ufoStandards.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABDE12A19378DD5005215AE /* ufoStandards.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7ABDE1381939C7BD005215AE /* ufoStandards.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE1371939C7BD005215AE /* ufoStandards.m */; };
+		7ABDE13B193A7009005215AE /* UFOSystemClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABDE139193A7009005215AE /* UFOSystemClass.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7ABDE13C193A7009005215AE /* UFOSystemClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE13A193A7009005215AE /* UFOSystemClass.m */; };
+		7ABDE13F193B2A06005215AE /* UFOScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABDE13D193B2A06005215AE /* UFOScope.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7ABDE140193B2A06005215AE /* UFOScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE13E193B2A06005215AE /* UFOScope.m */; };
+		7ABDE143193B2A71005215AE /* UFOVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABDE141193B2A71005215AE /* UFOVariable.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7ABDE144193B2A71005215AE /* UFOVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE142193B2A71005215AE /* UFOVariable.m */; };
+		7ABDE148193B2AA4005215AE /* UFONumberVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABDE146193B2AA4005215AE /* UFONumberVariable.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7ABDE149193B2AA4005215AE /* UFONumberVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE147193B2AA4005215AE /* UFONumberVariable.m */; };
+		7ABDE14C193B5A44005215AE /* UFOBooleanVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABDE14A193B5A44005215AE /* UFOBooleanVariable.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7ABDE14D193B5A44005215AE /* UFOBooleanVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE14B193B5A44005215AE /* UFOBooleanVariable.m */; };
+		7ABDE150193B5D8F005215AE /* UFOObjectVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABDE14E193B5D8F005215AE /* UFOObjectVariable.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7ABDE151193B5D8F005215AE /* UFOObjectVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE14F193B5D8F005215AE /* UFOObjectVariable.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7ABDE0FF193126D7005215AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ABDE0881931242A005215AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ABDE0CD19312548005215AE;
+			remoteInfo = ufoEngine;
+		};
+		7ABDE101193126D7005215AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ABDE0881931242A005215AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ABDE08F1931242A005215AE;
+			remoteInfo = ufo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7AA4F90A196A6B7000B1CDEC /* Notes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Notes.rtf; sourceTree = "<group>"; };
+		7ABDE0901931242A005215AE /* ufo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ufo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABDE0931931242A005215AE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7ABDE0961931242A005215AE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7ABDE0971931242A005215AE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7ABDE0981931242A005215AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7ABDE09B1931242A005215AE /* ufo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ufo-Info.plist"; sourceTree = "<group>"; };
+		7ABDE09D1931242A005215AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7ABDE09F1931242A005215AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7ABDE0A11931242A005215AE /* ufo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ufo-Prefix.pch"; sourceTree = "<group>"; };
+		7ABDE0A31931242A005215AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7ABDE0A51931242A005215AE /* UFOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UFOAppDelegate.h; sourceTree = "<group>"; };
+		7ABDE0A61931242A005215AE /* UFOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UFOAppDelegate.m; sourceTree = "<group>"; };
+		7ABDE0A91931242A005215AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7ABDE0AB1931242A005215AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7ABDE0CE19312548005215AE /* ufoEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ufoEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABDE0D219312548005215AE /* ufoEngine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ufoEngine-Info.plist"; sourceTree = "<group>"; };
+		7ABDE0D419312548005215AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7ABDE0D619312548005215AE /* ufoEngine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ufoEngine-Prefix.pch"; sourceTree = "<group>"; };
+		7ABDE0F319312591005215AE /* ufo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ufo.h; sourceTree = "<group>"; };
+		7ABDE0F5193125E3005215AE /* UFOViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UFOViewer.h; path = Viewer/UFOViewer.h; sourceTree = "<group>"; };
+		7ABDE0F6193125E3005215AE /* UFOViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UFOViewer.m; path = Viewer/UFOViewer.m; sourceTree = "<group>"; };
+		7ABDE107193128E5005215AE /* UFOEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UFOEngine.h; path = Engine/UFOEngine.h; sourceTree = "<group>"; };
+		7ABDE108193128E5005215AE /* UFOEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UFOEngine.m; path = Engine/UFOEngine.m; sourceTree = "<group>"; };
+		7ABDE10B19312B2E005215AE /* UFOReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UFOReader.h; path = Engine/UFOReader.h; sourceTree = "<group>"; };
+		7ABDE10C19312B2E005215AE /* UFOReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UFOReader.m; path = Engine/UFOReader.m; sourceTree = "<group>"; };
+		7ABDE10F19313718005215AE /* UFOConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UFOConsole.h; path = Viewer/UFOConsole.h; sourceTree = "<group>"; };
+		7ABDE11019313718005215AE /* UFOConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UFOConsole.m; path = Viewer/UFOConsole.m; sourceTree = "<group>"; };
+		7ABDE113193139B3005215AE /* ConsoleOutputTextView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ConsoleOutputTextView.xib; path = Viewer/ConsoleOutputTextView.xib; sourceTree = "<group>"; };
+		7ABDE1151934C5B2005215AE /* UFOClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UFOClass.h; path = Model/UFOClass.h; sourceTree = "<group>"; };
+		7ABDE1161934C5B2005215AE /* UFOClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UFOClass.m; path = Model/UFOClass.m; sourceTree = "<group>"; };
+		7ABDE1191934D6D2005215AE /* ufo.ufo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ufo.ufo; sourceTree = "<group>"; };
+		7ABDE11B19372116005215AE /* UFOClassesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UFOClassesController.h; path = Model/UFOClassesController.h; sourceTree = "<group>"; };
+		7ABDE11C19372116005215AE /* UFOClassesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UFOClassesController.m; path = Model/UFOClassesController.m; sourceTree = "<group>"; };
+		7ABDE1211937889E005215AE /* UFOOutputClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UFOOutputClass.h; path = Model/UFOOutputClass.h; sourceTree = "<group>"; };
+		7ABDE1221937889E005215AE /* UFOOutputClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UFOOutputClass.m; path = Model/UFOOutputClass.m; sourceTree = "<group>"; };
+		7ABDE12619378D8F005215AE /* UFOFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UFOFunction.h; path = Model/UFOFunction.h; sourceTree = "<group>"; };
+		7ABDE12719378D8F005215AE /* UFOFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UFOFunction.m; path = Model/UFOFunction.m; sourceTree = "<group>"; };
+		7ABDE12A19378DD5005215AE /* ufoStandards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ufoStandards.h; sourceTree = "<group>"; };
+		7ABDE12C1938B95E005215AE /* UFOSubEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UFOSubEngine.h; path = Engine/UFOSubEngine.h; sourceTree = "<group>"; };
+		7ABDE12D1938B95E005215AE /* UFOSubEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UFOSubEngine.m; path = Engine/UFOSubEngine.m; sourceTree = "<group>"; };
+		7ABDE1301939BC6F005215AE /* NSString+UFOString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UFOString.h"; sourceTree = "<group>"; };
+		7ABDE1311939BC6F005215AE /* NSString+UFOString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UFOString.m"; sourceTree = "<group>"; };
+		7ABDE1371939C7BD005215AE /* ufoStandards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ufoStandards.m; sourceTree = "<group>"; };
+		7ABDE139193A7009005215AE /* UFOSystemClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UFOSystemClass.h; path = Model/UFOSystemClass.h; sourceTree = "<group>"; };
+		7ABDE13A193A7009005215AE /* UFOSystemClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UFOSystemClass.m; path = Model/UFOSystemClass.m; sourceTree = "<group>"; };
+		7ABDE13D193B2A06005215AE /* UFOScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UFOScope.h; path = Model/UFOScope.h; sourceTree = "<group>"; };
+		7ABDE13E193B2A06005215AE /* UFOScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UFOScope.m; path = Model/UFOScope.m; sourceTree = "<group>"; };
+		7ABDE141193B2A71005215AE /* UFOVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UFOVariable.h; path = Model/UFOVariable.h; sourceTree = "<group>"; };
+		7ABDE142193B2A71005215AE /* UFOVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UFOVariable.m; path = Model/UFOVariable.m; sourceTree = "<group>"; };
+		7ABDE146193B2AA4005215AE /* UFONumberVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UFONumberVariable.h; path = Model/UFONumberVariable.h; sourceTree = "<group>"; };
+		7ABDE147193B2AA4005215AE /* UFONumberVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UFONumberVariable.m; path = Model/UFONumberVariable.m; sourceTree = "<group>"; };
+		7ABDE14A193B5A44005215AE /* UFOBooleanVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UFOBooleanVariable.h; path = Model/UFOBooleanVariable.h; sourceTree = "<group>"; };
+		7ABDE14B193B5A44005215AE /* UFOBooleanVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UFOBooleanVariable.m; path = Model/UFOBooleanVariable.m; sourceTree = "<group>"; };
+		7ABDE14E193B5D8F005215AE /* UFOObjectVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UFOObjectVariable.h; path = Model/UFOObjectVariable.h; sourceTree = "<group>"; };
+		7ABDE14F193B5D8F005215AE /* UFOObjectVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UFOObjectVariable.m; path = Model/UFOObjectVariable.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ABDE08D1931242A005215AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABDE0FA19312630005215AE /* ufoEngine.framework in Frameworks */,
+				7ABDE0941931242A005215AE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABDE0CA19312548005215AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABDE0CF19312548005215AE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7ABDE0871931242A005215AE = {
+			isa = PBXGroup;
+			children = (
+				7AA4F90A196A6B7000B1CDEC /* Notes.rtf */,
+				7ABDE0D019312548005215AE /* ufoEngine */,
+				7ABDE0991931242A005215AE /* ufo */,
+				7ABDE0921931242A005215AE /* Frameworks */,
+				7ABDE0911931242A005215AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7ABDE0911931242A005215AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDE0901931242A005215AE /* ufo.app */,
+				7ABDE0CE19312548005215AE /* ufoEngine.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ABDE0921931242A005215AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDE0931931242A005215AE /* Cocoa.framework */,
+				7ABDE0951931242A005215AE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7ABDE0951931242A005215AE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDE0961931242A005215AE /* AppKit.framework */,
+				7ABDE0971931242A005215AE /* CoreData.framework */,
+				7ABDE0981931242A005215AE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7ABDE0991931242A005215AE /* ufo */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDE0A51931242A005215AE /* UFOAppDelegate.h */,
+				7ABDE0A61931242A005215AE /* UFOAppDelegate.m */,
+				7ABDE0A81931242A005215AE /* MainMenu.xib */,
+				7ABDE0AB1931242A005215AE /* Images.xcassets */,
+				7ABDE09A1931242A005215AE /* Supporting Files */,
+			);
+			path = ufo;
+			sourceTree = "<group>";
+		};
+		7ABDE09A1931242A005215AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDE09B1931242A005215AE /* ufo-Info.plist */,
+				7ABDE09C1931242A005215AE /* InfoPlist.strings */,
+				7ABDE09F1931242A005215AE /* main.m */,
+				7ABDE0A11931242A005215AE /* ufo-Prefix.pch */,
+				7ABDE0A21931242A005215AE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7ABDE0D019312548005215AE /* ufoEngine */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDE0F319312591005215AE /* ufo.h */,
+				7ABDE12A19378DD5005215AE /* ufoStandards.h */,
+				7ABDE1371939C7BD005215AE /* ufoStandards.m */,
+				7ABDE1301939BC6F005215AE /* NSString+UFOString.h */,
+				7ABDE1311939BC6F005215AE /* NSString+UFOString.m */,
+				7ABDE105193128C1005215AE /* Model */,
+				7ABDE106193128C7005215AE /* Engine */,
+				7ABDE0F9193125EE005215AE /* Viewer */,
+				7ABDE0D119312548005215AE /* Supporting Files */,
+			);
+			path = ufoEngine;
+			sourceTree = "<group>";
+		};
+		7ABDE0D119312548005215AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDE1191934D6D2005215AE /* ufo.ufo */,
+				7ABDE0D219312548005215AE /* ufoEngine-Info.plist */,
+				7ABDE0D319312548005215AE /* InfoPlist.strings */,
+				7ABDE0D619312548005215AE /* ufoEngine-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7ABDE0F9193125EE005215AE /* Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDE0F5193125E3005215AE /* UFOViewer.h */,
+				7ABDE0F6193125E3005215AE /* UFOViewer.m */,
+				7ABDE10F19313718005215AE /* UFOConsole.h */,
+				7ABDE11019313718005215AE /* UFOConsole.m */,
+				7ABDE113193139B3005215AE /* ConsoleOutputTextView.xib */,
+			);
+			name = Viewer;
+			sourceTree = "<group>";
+		};
+		7ABDE105193128C1005215AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDE11B19372116005215AE /* UFOClassesController.h */,
+				7ABDE11C19372116005215AE /* UFOClassesController.m */,
+				7ABDE10B19312B2E005215AE /* UFOReader.h */,
+				7ABDE10C19312B2E005215AE /* UFOReader.m */,
+				7ABDE12519378D06005215AE /* System Classes */,
+				7ABDE1151934C5B2005215AE /* UFOClass.h */,
+				7ABDE1161934C5B2005215AE /* UFOClass.m */,
+				7ABDE12619378D8F005215AE /* UFOFunction.h */,
+				7ABDE12719378D8F005215AE /* UFOFunction.m */,
+				7ABDE13D193B2A06005215AE /* UFOScope.h */,
+				7ABDE13E193B2A06005215AE /* UFOScope.m */,
+				7ABDE145193B2A77005215AE /* Variable Types */,
+				7ABDE141193B2A71005215AE /* UFOVariable.h */,
+				7ABDE142193B2A71005215AE /* UFOVariable.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7ABDE106193128C7005215AE /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDE107193128E5005215AE /* UFOEngine.h */,
+				7ABDE108193128E5005215AE /* UFOEngine.m */,
+				7ABDE12C1938B95E005215AE /* UFOSubEngine.h */,
+				7ABDE12D1938B95E005215AE /* UFOSubEngine.m */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		7ABDE12519378D06005215AE /* System Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDE1211937889E005215AE /* UFOOutputClass.h */,
+				7ABDE1221937889E005215AE /* UFOOutputClass.m */,
+				7ABDE139193A7009005215AE /* UFOSystemClass.h */,
+				7ABDE13A193A7009005215AE /* UFOSystemClass.m */,
+			);
+			name = "System Classes";
+			sourceTree = "<group>";
+		};
+		7ABDE145193B2A77005215AE /* Variable Types */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDE14A193B5A44005215AE /* UFOBooleanVariable.h */,
+				7ABDE14B193B5A44005215AE /* UFOBooleanVariable.m */,
+				7ABDE146193B2AA4005215AE /* UFONumberVariable.h */,
+				7ABDE147193B2AA4005215AE /* UFONumberVariable.m */,
+				7ABDE14E193B5D8F005215AE /* UFOObjectVariable.h */,
+				7ABDE14F193B5D8F005215AE /* UFOObjectVariable.m */,
+			);
+			name = "Variable Types";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7ABDE0CB19312548005215AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABDE13F193B2A06005215AE /* UFOScope.h in Headers */,
+				7ABDE0F419312591005215AE /* ufo.h in Headers */,
+				7ABDE148193B2AA4005215AE /* UFONumberVariable.h in Headers */,
+				7ABDE143193B2A71005215AE /* UFOVariable.h in Headers */,
+				7ABDE109193128E5005215AE /* UFOEngine.h in Headers */,
+				7ABDE11D19372116005215AE /* UFOClassesController.h in Headers */,
+				7ABDE11119313718005215AE /* UFOConsole.h in Headers */,
+				7ABDE12E1938B95E005215AE /* UFOSubEngine.h in Headers */,
+				7ABDE0F7193125E3005215AE /* UFOViewer.h in Headers */,
+				7ABDE1231937889E005215AE /* UFOOutputClass.h in Headers */,
+				7ABDE1171934C5B2005215AE /* UFOClass.h in Headers */,
+				7ABDE14C193B5A44005215AE /* UFOBooleanVariable.h in Headers */,
+				7ABDE13B193A7009005215AE /* UFOSystemClass.h in Headers */,
+				7ABDE150193B5D8F005215AE /* UFOObjectVariable.h in Headers */,
+				7ABDE12819378D8F005215AE /* UFOFunction.h in Headers */,
+				7ABDE10D19312B2E005215AE /* UFOReader.h in Headers */,
+				7ABDE1341939C406005215AE /* ufoStandards.h in Headers */,
+				7ABDE1321939BC6F005215AE /* NSString+UFOString.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7ABDE08F1931242A005215AE /* ufo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ABDE0C11931242A005215AE /* Build configuration list for PBXNativeTarget "ufo" */;
+			buildPhases = (
+				7ABDE08C1931242A005215AE /* Sources */,
+				7ABDE08D1931242A005215AE /* Frameworks */,
+				7ABDE08E1931242A005215AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ufo;
+			productName = ufo;
+			productReference = 7ABDE0901931242A005215AE /* ufo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7ABDE0CD19312548005215AE /* ufoEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ABDE0ED19312548005215AE /* Build configuration list for PBXNativeTarget "ufoEngine" */;
+			buildPhases = (
+				7ABDE0C919312548005215AE /* Sources */,
+				7ABDE0CA19312548005215AE /* Frameworks */,
+				7ABDE0CB19312548005215AE /* Headers */,
+				7ABDE0CC19312548005215AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ufoEngine;
+			productName = ufoEngine;
+			productReference = 7ABDE0CE19312548005215AE /* ufoEngine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ABDE0881931242A005215AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UFO;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "AP-Software";
+			};
+			buildConfigurationList = 7ABDE08B1931242A005215AE /* Build configuration list for PBXProject "ufo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7ABDE0871931242A005215AE;
+			productRefGroup = 7ABDE0911931242A005215AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ABDE0CD19312548005215AE /* ufoEngine */,
+				7ABDE08F1931242A005215AE /* ufo */,
+				7ABDE0FB193126C0005215AE /* All */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ABDE08E1931242A005215AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABDE09E1931242A005215AE /* InfoPlist.strings in Resources */,
+				7ABDE0AC1931242A005215AE /* Images.xcassets in Resources */,
+				7ABDE0A41931242A005215AE /* Credits.rtf in Resources */,
+				7ABDE0AA1931242A005215AE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABDE0CC19312548005215AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABDE11A1934D6D2005215AE /* ufo.ufo in Resources */,
+				7ABDE114193139B3005215AE /* ConsoleOutputTextView.xib in Resources */,
+				7ABDE0D519312548005215AE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ABDE08C1931242A005215AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABDE0A01931242A005215AE /* main.m in Sources */,
+				7ABDE0A71931242A005215AE /* UFOAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABDE0C919312548005215AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABDE12919378D8F005215AE /* UFOFunction.m in Sources */,
+				7ABDE151193B5D8F005215AE /* UFOObjectVariable.m in Sources */,
+				7ABDE11219313718005215AE /* UFOConsole.m in Sources */,
+				7ABDE11E19372116005215AE /* UFOClassesController.m in Sources */,
+				7ABDE1241937889E005215AE /* UFOOutputClass.m in Sources */,
+				7ABDE144193B2A71005215AE /* UFOVariable.m in Sources */,
+				7ABDE13C193A7009005215AE /* UFOSystemClass.m in Sources */,
+				7ABDE140193B2A06005215AE /* UFOScope.m in Sources */,
+				7ABDE1181934C5B2005215AE /* UFOClass.m in Sources */,
+				7ABDE10E19312B2E005215AE /* UFOReader.m in Sources */,
+				7ABDE149193B2AA4005215AE /* UFONumberVariable.m in Sources */,
+				7ABDE10A193128E5005215AE /* UFOEngine.m in Sources */,
+				7ABDE1331939BC6F005215AE /* NSString+UFOString.m in Sources */,
+				7ABDE12F1938B95E005215AE /* UFOSubEngine.m in Sources */,
+				7ABDE1381939C7BD005215AE /* ufoStandards.m in Sources */,
+				7ABDE0F8193125E3005215AE /* UFOViewer.m in Sources */,
+				7ABDE14D193B5A44005215AE /* UFOBooleanVariable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7ABDE100193126D7005215AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ABDE0CD19312548005215AE /* ufoEngine */;
+			targetProxy = 7ABDE0FF193126D7005215AE /* PBXContainerItemProxy */;
+		};
+		7ABDE102193126D7005215AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ABDE08F1931242A005215AE /* ufo */;
+			targetProxy = 7ABDE101193126D7005215AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7ABDE09C1931242A005215AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ABDE09D1931242A005215AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7ABDE0A21931242A005215AE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ABDE0A31931242A005215AE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7ABDE0A81931242A005215AE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ABDE0A91931242A005215AE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		7ABDE0D319312548005215AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ABDE0D419312548005215AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ABDE0BF1931242A005215AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7ABDE0C01931242A005215AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7ABDE0C21931242A005215AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ufo/ufo-Prefix.pch";
+				INFOPLIST_FILE = "ufo/ufo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7ABDE0C31931242A005215AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ufo/ufo-Prefix.pch";
+				INFOPLIST_FILE = "ufo/ufo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7ABDE0EE19312548005215AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ufoEngine/ufoEngine-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ufoEngine/ufoEngine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		7ABDE0EF19312548005215AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ufoEngine/ufoEngine-Prefix.pch";
+				INFOPLIST_FILE = "ufoEngine/ufoEngine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		7ABDE0FD193126C1005215AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7ABDE0FE193126C1005215AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ABDE08B1931242A005215AE /* Build configuration list for PBXProject "ufo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABDE0BF1931242A005215AE /* Debug */,
+				7ABDE0C01931242A005215AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ABDE0C11931242A005215AE /* Build configuration list for PBXNativeTarget "ufo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABDE0C21931242A005215AE /* Debug */,
+				7ABDE0C31931242A005215AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ABDE0ED19312548005215AE /* Build configuration list for PBXNativeTarget "ufoEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABDE0EE19312548005215AE /* Debug */,
+				7ABDE0EF19312548005215AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ABDE0FC193126C1005215AE /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABDE0FD193126C1005215AE /* Debug */,
+				7ABDE0FE193126C1005215AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ABDE0881931242A005215AE /* Project object */;
+}

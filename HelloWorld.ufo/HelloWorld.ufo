@@ -1,0 +1,12 @@
+wants ufo.UFOOutput
+
+class HelloWorld {
+    public static func main() {
+        int i
+
+        UFOOutput.printInt(11)
+        UFOOutput.println()
+        UFOOutput.printInt(6)
+    }
+
+}

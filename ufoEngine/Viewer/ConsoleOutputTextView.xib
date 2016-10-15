@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="UFOConsole">
+            <connections>
+                <outlet property="outputView" destination="Hsx-5n-Fd4" id="vdV-dR-WBN"/>
+                <outlet property="outputViewScrollView" destination="st0-K1-Lu4" id="khV-Y0-7KR"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <scrollView focusRingType="none" borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" horizontalScrollElasticity="allowed" verticalScrollElasticity="allowed" id="st0-K1-Lu4">
+            <rect key="frame" x="0.0" y="0.0" width="522" height="289"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <clipView key="contentView" id="9tu-li-Rsd">
+                <rect key="frame" x="0.0" y="0.0" width="522" height="289"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <textView focusRingType="none" editable="NO" importsGraphics="NO" findStyle="bar" continuousSpellChecking="YES" allowsDocumentBackgroundColorChange="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="Hsx-5n-Fd4">
+                        <rect key="frame" x="0.0" y="0.0" width="522" height="289"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <size key="minSize" width="522" height="289"/>
+                        <size key="maxSize" width="522" height="10000000"/>
+                        <color key="insertionPointColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <size key="minSize" width="522" height="289"/>
+                        <size key="maxSize" width="522" height="10000000"/>
+                    </textView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            </clipView>
+            <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="LTM-aq-EMZ">
+                <rect key="frame" x="-100" y="-100" width="522" height="16"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </scroller>
+            <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="KnL-Xk-UT5">
+                <rect key="frame" x="506" y="0.0" width="16" height="289"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </scroller>
+        </scrollView>
+    </objects>
+</document>
